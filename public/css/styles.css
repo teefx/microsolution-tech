@@ -453,6 +453,7 @@ nav li:first-child {
   .contact-info,
   .contact-form {
     width: 100%;
+    /* height: auto; */
   }
 }
 .about-cards {
