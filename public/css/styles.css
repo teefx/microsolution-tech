@@ -200,6 +200,7 @@ nav li:first-child {
 }
 
 .card {
+  height: auto;
   background: #5246ff;
   color: #fff;
   border-radius: 8px;
@@ -415,42 +416,7 @@ nav li:first-child {
     width: 100%; /* Full width buttons on mobile */
     margin-bottom: 10px; /* Space between buttons */
   }
-}
-/* Responsive Design */
-@media (max-width: 768px) {
-  .contact-container {
-    flex-direction: column;
-  }
-  .contact-section {
-    width: 100%;
-  }
-  .contact-info,
-  .contact-form {
-    width: 100%;
-  }
-}
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .card {
-    width: 100%; /* Full-width cards on smaller screens */
-  }
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .about {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about-content h2 {
-    font-size: 1.8rem;
-  }
-}
-
-/* media queries for hero */
-@media (max-width: 768px) {
   .container {
     flex-direction: column;
   }
@@ -466,6 +432,31 @@ nav li:first-child {
   .hero-content p {
     font-size: 1rem;
   }
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content h2 {
+    font-size: 1.8rem;
+  }
+  .card {
+    width: calc(100% - 20px); /* Full width on smaller screens */
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+  .contact-section {
+    width: 100%;
+  }
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+}
+.about-cards {
+  height: auto;
 }
 /* media queries */
 @media (max-width: 1100px) {
