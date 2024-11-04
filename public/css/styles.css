@@ -15,7 +15,7 @@ body {
 /* tee's navigation bar */
 nav {
   /* overflow-x: hidden; */
-  position: fixed;
+  /* position: fixed; */
   background-color: rgb(255, 255, 255);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
