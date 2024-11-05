@@ -37,10 +37,10 @@ app.post("/contact", async (req, res) => {
   try {
     const contact = new Contact(req.body);
     await contact.save(); // Save form data to MongoDB
-    res.status(200).send("Form submitted successfully!");
+    res.status(200).sendFile(__dirname + '/public/success.html'); // Send success.html on successful submission
   } catch (error) {
     console.error(error);
-    res.status(500).send("Error submitting the form.");
+    res.status(500).sendFile(__dirname + '/public/error.html'); // Send error.html on failure
   }
 });
 
