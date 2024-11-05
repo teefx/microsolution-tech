@@ -14,8 +14,6 @@ body {
 }
 /* tee's navigation bar */
 nav {
-  /* overflow-x: hidden; */
-  /* position: fixed; */
   background-color: rgb(255, 255, 255);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
@@ -402,6 +400,106 @@ nav li:first-child {
   border-color: blue;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
   outline: none; /* Optional: remove default outline for a cleaner look */
+}
+.our-clients {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f7f7f7;
+}
+
+.our-clients h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.client-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.client img {
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.client img:hover {
+  filter: grayscale(0%);
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #eee;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section a {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #ffd700;
+}
+
+.social-icons a {
+  color: #ccc;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ffd700;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #222;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 768px) {
