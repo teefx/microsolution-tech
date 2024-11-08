@@ -69,6 +69,7 @@ nav li:first-child {
   height: 80px;
   vertical-align: middle;
   margin-top: 50px;
+  
 }
 .menu-button {
   display: none;
@@ -80,7 +81,7 @@ nav li:first-child {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  /* max-width: 1200px; */
+
   width: 100%;
   min-height: 50vh;
   margin: auto;
@@ -134,13 +135,12 @@ nav li:first-child {
   border-radius: 10px;
 }
 
-/* aboutus styles */
+
 .about {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  /* max-width: 1200px; */
   margin: 0 auto;
   width: 100%;
   background-color: rgb(236, 237, 255);
@@ -186,7 +186,7 @@ nav li:first-child {
 .about-cards {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap; /* Ensure this comes before 'align-items' */
+  flex-wrap: wrap; 
   align-items: center;
   justify-content: center;
   gap: 20px;
@@ -214,7 +214,7 @@ nav li:first-child {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  width: calc(50% - 20px); /* Two cards per row */
+  width: calc(50% - 20px); 
   box-sizing: border-box;
 }
 
@@ -244,7 +244,7 @@ nav li:first-child {
 .about-carousel-cards {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap; /* Ensure this comes before 'align-items' */
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 20px;
@@ -255,13 +255,12 @@ nav li:first-child {
   min-height: 50vh;
 }
 .about-carousel {
-  /* background-color: blue; */
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Default: Two cards per view */
+  grid-template-columns: repeat(2, 1fr); 
   gap: 20px;
   max-width: 1200px;
   width: 100%;
-  height: auto; /* Adjust height to auto */
+  height: auto;
   overflow: hidden;
   padding: 10px;
 }
@@ -282,8 +281,8 @@ nav li:first-child {
   width: 100%;
   height: 470px;
   object-fit: cover;
-  border-radius: 8px 8px 0 0; /* Rounded corners for the top */
-  margin-bottom: 15px; /* Space between image and text */
+  border-radius: 8px 8px 0 0; 
+  margin-bottom: 15px; 
 }
 
 .get-started {
@@ -389,6 +388,8 @@ nav li:first-child {
   border-radius: 5px;
   cursor: pointer;
 }
+
+
 /* Input and Textarea Default Styles */
 .contact-form input,
 .contact-form textarea {
@@ -404,7 +405,7 @@ nav li:first-child {
 .contact-form textarea:focus {
   border-color: blue;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
-  outline: none; /* Optional: remove default outline for a cleaner look */
+  outline: none; 
 }
 .our-clients {
   text-align: center;
@@ -426,9 +427,9 @@ nav li:first-child {
 }
 
 .client img {
-  width: 100%; /* Ensure the image stretches to fill its container */
-  height: 250px; /* Set the height to 250px */
-  object-fit: contain; /* Keeps the aspect ratio of the images */
+  width: 100%; 
+  height: 166.7px; 
+  object-fit: contain; 
   filter: grayscale(100%);
   transition: filter 0.3s ease;
 }
@@ -531,20 +532,20 @@ nav li:first-child {
 
 @media (max-width: 768px) {
   .about-carousel {
-    grid-template-columns: 1fr; /* Stack cards vertically on small screens */
+    grid-template-columns: 1fr; 
   }
 
   .section-title {
-    font-size: 1.5rem; /* Smaller title on mobile */
+    font-size: 1.5rem;
   }
 
   .carousel-controls {
-    flex-direction: column; /* Stack buttons vertically */
+    flex-direction: column;
   }
 
   .carousel-controls button {
-    width: 100%; /* Full width buttons on mobile */
-    margin-bottom: 10px; /* Space between buttons */
+    width: 100%;
+    margin-bottom: 10px;
   }
 
   .container {
@@ -571,7 +572,7 @@ nav li:first-child {
     font-size: 1.8rem;
   }
   .card {
-    width: calc(100% - 20px); /* Full width on smaller screens */
+    width: calc(100% - 20px); 
   }
 
   .contact-container {
