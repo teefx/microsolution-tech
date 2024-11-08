@@ -1,0 +1,143 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+body {
+  position: relative;
+  background-image: url("/images/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Create an overlay */
+body::before {
+  content: "";
+  position: absolute;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white; /* Adjust the transparency here */
+  z-index: -1; /* Ensures the overlay is behind the content */
+}
+
+.contact-section {
+  width: 80%;
+  max-width: 900px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  color: #5246ff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  /* text-align: center; */
+  color: #555;
+  margin-bottom: 20px;
+}
+.contact-section h3 {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+}
+.contact-container {
+  display: flex;
+  gap: 20px;
+}
+
+.form-side,
+.info-side {
+  flex: 1;
+}
+
+.contact-form label {
+  display: block;
+  color: #5246ff;
+  margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: border 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #5246ff;
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #5246ff;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #4138d6;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.info-item h4 {
+  color: #5246ff;
+  margin-bottom: 5px;
+}
+
+.info-item p {
+  font-weight: 500;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.map-container iframe {
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column; /* Default stack */
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    flex-direction: row; /* Side-by-side for wider screens */
+  }
+}
+@media (min-width: 768px) {
+  .info-side {
+    padding-left: 50px;
+  }
+}
+
+label {
+  font-weight: bold;
+}
