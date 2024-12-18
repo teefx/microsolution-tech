@@ -23,8 +23,8 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: white; /* Adjust the transparency here */
-  z-index: -1; /* Ensures the overlay is behind the content */
+  background: white; 
+  z-index: -1;
 }
 
 .contact-section {
@@ -123,13 +123,13 @@ body::before {
 }
 .contact-container {
   display: flex;
-  flex-direction: column; /* Default stack */
+  flex-direction: column; 
   gap: 20px;
 }
 
 @media (min-width: 768px) {
   .contact-container {
-    flex-direction: row; /* Side-by-side for wider screens */
+    flex-direction: row; 
   }
 }
 @media (min-width: 768px) {
