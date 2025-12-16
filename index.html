@@ -238,6 +238,23 @@
     }
   }
   </script>
+
+  <!-- Vercel Analytics (Vercel Insights) - loads only in non-local environments -->
+  <script>
+    (function () {
+      try {
+        if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
+        var d = document;
+        var s = d.createElement('script');
+        s.defer = true;
+        s.src = 'https://static.vercel-insights.com/v1/script.js';
+        s.setAttribute('data-domain', location.hostname);
+        d.head.appendChild(s);
+      } catch (e) {
+        /* fail silently */
+      }
+    })();
+  </script>
 </head>
 <body>
   <div id="root"></div>
