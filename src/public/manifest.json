@@ -1,0 +1,27 @@
+{
+  "name": "MicroSolutions Technology Limited",
+  "short_name": "MicroSolutions",
+  "description": "Leading software development and IT solutions company in Nigeria",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#030213",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/3c8f572fa709f1fcc9d13a7d8671fd834447e28e.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/3c8f572fa709f1fcc9d13a7d8671fd834447e28e.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "technology", "productivity"],
+  "lang": "en-US",
+  "dir": "ltr"
+}

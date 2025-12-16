@@ -1,0 +1,30 @@
+# Robots.txt for MicroSolutions Technology Limited
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Specifically allow major search engine bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.microsolutionsngr.com/sitemap.xml
+
+# Crawl-delay for politeness
+Crawl-delay: 0
