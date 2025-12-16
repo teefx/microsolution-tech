@@ -1,9 +1,11 @@
 import { motion } from 'motion/react';
 import { useState } from 'react';
-import imgCardBody from "figma:asset/f18d9f2546b222348d2781bfd9780eae72779acf.png";
-import imgCardBody1 from "figma:asset/55e00dc0eb5c24271b875522c6d4d472e4ecb492.png";
-import imgCardBody2 from "figma:asset/46eb76052b99d12158b5280236fc41f161e0277c.png";
-import imgCard from "figma:asset/7e86dcc18082fd6f2437420b9cf5b2bb8dfadac6.png";
+import { 
+  consultingServiceImage, 
+  softwareServiceImage, 
+  systemIntegrationServiceImage, 
+  maintenanceServiceImage 
+} from '../constants/images';
 import { ServiceModal } from './ServiceModal';
 
 export function Services() {
@@ -13,7 +15,7 @@ export function Services() {
     {
       title: 'MicroSolutions Consultancy (MSConsult)',
       description: 'MSConsult assists clients in planning, developing, and implementing computer systems for office automation. Our maintenance services include organized monthly checks.',
-      image: imgCardBody,
+      image: consultingServiceImage,
       fullDescription: 'MSConsult provides comprehensive IT consultancy services to help organizations optimize their technology infrastructure. We specialize in system planning, implementation, and ongoing maintenance to ensure your business runs smoothly and efficiently.',
       features: [
         'Complete IT infrastructure planning and design',
@@ -35,7 +37,7 @@ export function Services() {
     {
       title: 'MicroSolutions Software (MSSoft)',
       description: 'MSSoft develops software with international standards, offering Windows and Web Applications along with system planning, package evaluation, and more.',
-      image: imgCardBody1,
+      image: softwareServiceImage,
       fullDescription: 'MSSoft delivers world-class custom software solutions built to international standards. Our development team creates robust Windows and Web applications tailored to your specific business needs, from concept to deployment.',
       features: [
         'Custom Windows application development',
@@ -57,7 +59,7 @@ export function Services() {
     {
       title: 'MicroSolutions Communications and Engineering (MSCom)',
       description: 'MSCom provides technical support for hardware and network solutions, offering services from hardware evaluation to full network documentation.',
-      image: imgCardBody2,
+      image: systemIntegrationServiceImage,
       fullDescription: 'MSCom specializes in comprehensive network infrastructure and hardware solutions. From initial assessment to complete deployment and documentation, we ensure your network is secure, efficient, and ready for the future.',
       features: [
         'Network design and implementation',
@@ -79,7 +81,7 @@ export function Services() {
     {
       title: 'MicroSolutions Manpower Development (MSMan)',
       description: 'MSMan focuses on developing IT talent and providing training programs to help organizations build skilled technology teams.',
-      image: imgCard,
+      image: maintenanceServiceImage,
       large: true,
       fullDescription: 'MSMan is dedicated to developing the next generation of IT professionals. We provide comprehensive training programs, certification courses, and talent development services to help organizations build and maintain highly skilled technology teams.',
       features: [
@@ -192,7 +194,7 @@ export function Services() {
                 transition={{ duration: 0.6 }}
                 alt="Contact us"
                 className="w-full h-full object-cover"
-                src={imgCardBody2}
+                src={systemIntegrationServiceImage}
               />
             </div>
             <div className="bg-white flex-1 p-4 md:p-5 lg:p-[25px] flex flex-col gap-[12px] md:gap-[16px]">

@@ -1,12 +1,14 @@
 import { motion } from 'motion/react';
-import img from "figma:asset/de6ac59c25ca88d54156bddc8250ae273fd0dac1.png";
-import img1 from "figma:asset/390dba836a7ca7a16c112eeffead36fe730666a7.png";
-import img2 from "figma:asset/10bee8643401262ec4749e9d46e090c22a843ba9.png";
-import img3 from "figma:asset/df2a4cf187fae4e685a5fa131d24fc635b6b41bd.png";
-import img4 from "figma:asset/1e6135036b26db601f23f146ab62b4aad491da34.png";
+import { 
+  clientLogo1, 
+  clientLogo2, 
+  clientLogo3, 
+  clientLogo4, 
+  clientLogo5 
+} from '../constants/images';
 
 export function ClientLogos() {
-  const logos = [img, img1, img2, img3, img4];
+  const logos = [clientLogo1, clientLogo2, clientLogo3, clientLogo4, clientLogo5];
 
   return (
     <section className="py-12 md:py-20 bg-white">

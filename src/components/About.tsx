@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import imgMicroSolutionsOffice from "figma:asset/aab56357e46973d47203a84d09fd734d4bf3ad2f.png";
+import { officeTeamImage } from '../constants/images';
 
 export function About() {
   const scrollToContact = () => {
@@ -36,7 +36,7 @@ export function About() {
               transition={{ duration: 0.6 }}
               alt="MicroSolutions Office"
               className="w-full h-full object-cover"
-              src={imgMicroSolutionsOffice}
+              src={officeTeamImage}
             />
           </motion.div>
 

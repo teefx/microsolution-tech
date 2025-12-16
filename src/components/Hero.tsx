@@ -1,7 +1,6 @@
 import { motion } from 'motion/react';
 import { useState } from 'react';
-import imgMicrosolutionLogo1 from "figma:asset/3c8f572fa709f1fcc9d13a7d8671fd834447e28e.png";
-import imgFrame16 from "figma:asset/731a94b6ef866d61b87135be7b704b5b856b81b5.png";
+import { microsolutionsLogo, heroBackgroundImage } from '../constants/images';
 import { ConsultationModal } from './ConsultationModal';
 import { Menu, X } from 'lucide-react';
 
@@ -36,7 +35,7 @@ export function Hero() {
           transition={{ duration: 1.5, ease: 'easeOut' }}
           alt=""
           className="absolute max-w-none object-cover opacity-50 size-full"
-          src={imgFrame16}
+          src={heroBackgroundImage}
         />
         {/* Animated gradient overlay */}
         <motion.div
@@ -61,7 +60,7 @@ export function Hero() {
           <img
             alt="Microsolution Logo"
             className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
-            src={imgMicrosolutionLogo1}
+            src={microsolutionsLogo}
           />
         </motion.div>
 
@@ -149,7 +148,7 @@ export function Hero() {
                 <img
                   alt="Microsolution Logo"
                   className="h-[50px] w-auto"
-                  src={imgMicrosolutionLogo1}
+                  src={microsolutionsLogo}
                 />
               </motion.div>
 

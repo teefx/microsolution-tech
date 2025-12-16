@@ -1,7 +1,8 @@
 import { motion } from 'motion/react';
-import { useState } from 'react';
+import { useState, FormEvent } from 'react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 import { toast } from 'sonner@2.0.3';
-import imgRectangle18 from "figma:asset/d5a58f10a6e48a20391bd7aaca32353a901a9c5e.png";
+import { contactBackgroundImage } from '../constants/images';
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -12,7 +13,7 @@ export function Contact() {
     message: '',
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     
     // Prepare email content
@@ -82,7 +83,7 @@ This message was submitted from the MicroSolutions website contact form.
             <img
               alt=""
               className="absolute inset-0 w-full h-full object-cover opacity-20"
-              src={imgRectangle18}
+              src={contactBackgroundImage}
             />
           </div>
 
@@ -101,7 +102,7 @@ This message was submitted from the MicroSolutions website contact form.
                 transition={{ duration: 0.6 }}
                 alt="Contact"
                 className="w-full h-full object-cover"
-                src={imgRectangle18}
+                src={contactBackgroundImage}
               />
             </motion.div>
 
