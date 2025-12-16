@@ -1,15 +1,246 @@
-
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Build and Enhance Website</title>
-    </head>
-
-    <body>
-      <div id="root"></div>
-      <script type="module" src="/src/main.tsx"></script>
-    </body>
-  </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
+  <!-- Primary Meta Tags -->
+  <title>MicroSolutions Technology Limited | Software Development, IT Solutions & Digital Transformation in Nigeria</title>
+  
+  <meta name="description" content="MicroSolutions Technology Limited provides innovative software development, digital transformation, office automation, IT consulting, and system integration services for private and non-governmental organizations across Nigeria. We help businesses transition from manual processes to efficient digital systems.">
+  
+  <meta name="keywords" content="MicroSolutions Nigeria, MicroSolutions Technology Limited, software development Nigeria, custom software Nigeria, IT solutions Ibadan, digital transformation Nigeria, business automation Nigeria, office automation solutions, system integration Nigeria, web application development, Windows application development, enterprise software Nigeria, software licensing Nigeria, IT consulting services, technology consultancy Nigeria, computer systems planning, digital systems upgrade, NGO IT solutions, private sector IT solutions, business process automation, database management systems, cloud-ready software Nigeria, ICT services Nigeria, software maintenance Nigeria, software upgrade Nigeria, tech company Ibadan, software engineers Nigeria, digital workflow solutions, bespoke software developers Nigeria, application development company Nigeria, system analysis and design Nigeria, software implementation Nigeria, corporate IT solutions, IT support Ibadan, IT infrastructure Nigeria">
+  
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.microsolutionsngr.com/">
+  <meta name="author" content="MicroSolutions Technology Limited">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="MicroSolutions Technology Limited | Leading Software & IT Solutions in Nigeria">
+  <meta property="og:description" content="Reliable partner for software development, digital transformation, system integration, and office automation across Nigeria.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.microsolutionsngr.com/">
+  <meta property="og:image" content="https://www.microsolutionsngr.com/3c8f572fa709f1fcc9d13a7d8671fd834447e28e.png">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MicroSolutions Technology Limited | Software Development & IT Services">
+  <meta name="twitter:description" content="Delivering innovative software solutions and digital systems that help organizations operate smarter and more efficiently.">
+  <meta name="twitter:image" content="https://www.microsolutionsngr.com/3c8f572fa709f1fcc9d13a7d8671fd834447e28e.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="/3c8f572fa709f1fcc9d13a7d8671fd834447e28e.png" sizes="any">
+  <link rel="icon" type="image/png" href="/favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="/3c8f572fa709f1fcc9d13a7d8671fd834447e28e.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#030213">
+  <meta name="msapplication-TileColor" content="#030213">
+  <meta name="msapplication-config" content="/browserconfig.xml">
+  
+  <!-- Preconnect to external domains for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Additional SEO -->
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="7 days">
+  <meta name="distribution" content="global">
+  <meta name="rating" content="general">
+  
+  <!-- Geo Tags -->
+  <meta name="geo.region" content="NG-OY">
+  <meta name="geo.placename" content="Lagos, Nigeria">
+  <meta name="geo.position" content="6.5244;3.3792">
+  <meta name="ICBM" content="6.5244, 3.3792">
+  
+  <!-- Business Schema.org Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "MicroSolutions Technology Limited",
+    "alternateName": "MicroSolutions Nigeria",
+    "url": "https://www.microsolutionsngr.com",
+    "logo": "https://www.microsolutionsngr.com/3c8f572fa709f1fcc9d13a7d8671fd834447e28e.png",
+    "description": "MicroSolutions Technology Limited provides innovative software development, digital transformation, and IT consulting services across Nigeria.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lagos",
+      "addressCountry": "NG"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+234-808-232-3060",
+      "contactType": "Customer Service",
+      "email": "info@microsolutionsngr.com",
+      "areaServed": "NG",
+      "availableLanguage": "English"
+    },
+    "sameAs": [
+      "https://facebook.com/microsolutionsngr",
+      "https://twitter.com/microsolutionsngr",
+      "https://linkedin.com/company/microsolutions-technology-limited"
+    ]
+  }
+  </script>
+  
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "MicroSolutions Technology Limited",
+    "image": "https://www.microsolutionsngr.com/3c8f572fa709f1fcc9d13a7d8671fd834447e28e.png",
+    "@id": "https://www.microsolutionsngr.com",
+    "url": "https://www.microsolutionsngr.com",
+    "telephone": "+234-808-232-3060",
+    "email": "info@microsolutionsngr.com",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Lagos",
+      "addressLocality": "Lagos",
+      "addressRegion": "Lagos State",
+      "postalCode": "",
+      "addressCountry": "NG"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 6.5244,
+      "longitude": 3.3792
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:00",
+      "closes": "17:00"
+    },
+    "sameAs": [
+      "https://facebook.com/microsolutionsngr",
+      "https://twitter.com/microsolutionsngr",
+      "https://linkedin.com/company/microsolutions-technology-limited"
+    ]
+  }
+  </script>
+  
+  <!-- Service Offerings Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Software Development",
+    "provider": {
+      "@type": "Organization",
+      "name": "MicroSolutions Technology Limited",
+      "url": "https://www.microsolutionsngr.com"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Nigeria"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "IT Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "MSConsult - IT Consulting Services",
+            "description": "Computer systems planning and analysis, feasibility studies, and digital transformation consulting"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "MSSoft - Software Development",
+            "description": "Custom software development, web applications, Windows applications, and bespoke software solutions"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "MSCom - System Integration",
+            "description": "Hardware and software supply, system integration, office automation, and IT infrastructure"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "MSMan - Software Maintenance",
+            "description": "Software licensing, maintenance, upgrades, and ongoing technical support"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+  
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.microsolutionsngr.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "About",
+        "item": "https://www.microsolutionsngr.com/#about"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Services",
+        "item": "https://www.microsolutionsngr.com/#services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Contact",
+        "item": "https://www.microsolutionsngr.com/#contact"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- WebSite Schema with Search Action -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "MicroSolutions Technology Limited",
+    "alternateName": "MicroSolutions Nigeria",
+    "url": "https://www.microsolutionsngr.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.microsolutionsngr.com/#services?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

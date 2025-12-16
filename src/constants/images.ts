@@ -1,24 +1,30 @@
 // Company Branding
-export const microsolutionsLogo = "/assets/logo/microsolutions-logo.png";
+export const microsolutionsLogo = "/microsolution-logo.png";
 
 // Hero Section
-export const heroBackgroundImage = "/assets/hero/hero-background.png";
+export const heroBackgroundImage = "/hero-background.jpg";
+
 
 // About Section
-export const officeTeamImage = "/assets/about/office-team.png";
+export const officeTeamImage = "/about-image.png";
 
 // Services Section
-export const consultingServiceImage = "/assets/services/consulting-service.png";
-export const softwareServiceImage = "/assets/services/software-service.png";
-export const systemIntegrationServiceImage = "/assets/services/system-integration-service.png";
-export const maintenanceServiceImage = "/assets/services/maintenance-service.png";
+export const consultingServiceImage = "/consult-service.jpg";
+export const softwareServiceImage = "/software-dev-service.png";
+export const systemIntegrationServiceImage = "/engneering-service.jpg";
+export const maintenanceServiceImage = "/manpower-service.jpg";
 
 // Contact Section
-export const contactBackgroundImage = "/assets/contact/contact-background.png";
+export const contactBackgroundImage = "/contact image.png";
 
 // Client Logos
-export const clientLogo1 = "/assets/clients/client-logo-1.png";
-export const clientLogo2 = "/assets/clients/client-logo-2.png";
-export const clientLogo3 = "/assets/clients/client-logo-3.png";
-export const clientLogo4 = "/assets/clients/client-logo-4.png";
-export const clientLogo5 = "/assets/clients/client-logo-5.png";
+export const clientLogo1 = "/client 1.png";
+
+export const clientLogo2 = "/client 2.png";
+
+export const clientLogo3 = "/client 3.png";
+
+export const clientLogo4 = "/client 4.png";
+
+export const clientLogo5 = "/client 5.png";
+
